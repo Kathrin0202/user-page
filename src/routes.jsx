@@ -7,7 +7,7 @@ import { UserPage } from "./pages/userPage";
 const AppRoutes = () => {
   return (
     <Routes>
-      <Route path="/" element={<Login />} />
+      <Route path="/login" element={<Login />} />
       <Route path="/main" element={<Main />} />
       <Route path="/main/users/:id" element={<UserPage />} />
       <Route path="*" element={<NotFound />} />
