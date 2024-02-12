@@ -13,7 +13,7 @@ export const Main = () => {
   const handleClickLogOut = () => {
     dispatch(setLoggedOut());
     dispatch(deleteToken());
-    navigate("/login");
+    navigate("/user-page");
   };
 
   const [users, setUsers] = useState([]);

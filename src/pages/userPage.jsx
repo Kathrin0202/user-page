@@ -12,7 +12,7 @@ export const UserPage = () => {
   const handleClickLogOut = () => {
     dispatch(setLoggedOut());
     dispatch(deleteToken());
-    navigate("/login");
+    navigate("/user-page");
   };
   const handleClickMain = () => {
     navigate("/main");

@@ -1,7 +1,7 @@
 {
   "name": "user-page",
   "version": "0.1.0",
-  "homepage": "https://Kathrin0202.github.io/user-page",
+  "homepage": "https://Kathrin0202.github.io/user-page/",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^2.1.0",
